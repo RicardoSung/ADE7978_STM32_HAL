@@ -14,7 +14,7 @@ The chipset including ADE7978 and ADE7933/7932 use three communication protocols
 ## Issues
 1. The software I2C may have some problems.
 2. The Data received may not be trusted but the logic analyser shows the data received by STM32 is right.
-3. 
+
 ## Method
 1. To choose the communication protocols, please predefine the HSDC_Mode and I2C_Mode in file "ade7978.h" like "#define I2C_Mode Using_HW_I2C" and "#define HSDC_Mode HSDC_Used".
 2. If you want to use HSDC, you need to change the SPI mode to "Slave Receive Only", set the SS/HSA to be "Low-Level active", modify the "Data Size", which should be 32bit, and change "Master Inter Data Idleness" and "Master Ss Idleness" to be "07 Cycles". Last but not least, never forget to enable "SPIx global interrupt".
