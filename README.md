@@ -9,7 +9,7 @@
 
 ## Preknowledge
 The chipset including ADE7978 and ADE7933/7932 use three communication protocols to transmit and receive data, which are SPI, I2C and HSDC. However, the I2C cannot work together with SPI but HSDC. The SPI protocol is easy to make it. So the code is about I2C, which can be used by both hardware and software, and HSDC.
-## ISSUES
+## Issues
 1. The software I2C may have some problems.
 2. The Data received may not be trusted but the logic analyser shows the data received by STM32 is right.
 ## Method
