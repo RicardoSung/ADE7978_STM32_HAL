@@ -5,7 +5,7 @@
 2. This program can be applied to open source programs and does not require a license.
 3. Any application must credit the original author.
 4. Any reproduction, distribution, modification must follow the original agreement.
-               All Rights Reserved by Fei Song, 2021
+<br align="center">All Rights Reserved by Fei Song, 2021
 
 ## Preknowledge
 The chipset including ADE7978 and ADE7933/7932 use three communication protocols to transmit and receive data, which are SPI, I2C and HSDC. However, the I2C cannot work together with SPI but HSDC. The SPI protocol is easy to make it. So the code is about I2C, which can be used by both hardware and software, and HSDC.
