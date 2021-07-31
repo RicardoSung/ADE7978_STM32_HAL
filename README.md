@@ -5,7 +5,7 @@
 2. This program can be applied to open source programs and does not require a license.
 3. Any application must credit the original author.
 4. Any reproduction, distribution, modification must follow the original agreement.
-5. 
+
 <p align="center">All Rights Reserved by Fei Song, 2021</p>
 
 ## Preknowledge
